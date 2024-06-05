@@ -14,8 +14,8 @@ const Skills = () => {
           Interest
         </h1>
       </div>
-      <div className="w-full h-fit px-10 py-10  bg-[#86868678] text-[1.5vw] rounded-xl">
-        <div className="w-[10vw] inline-block mr-10 h-[10vw]">
+      <div className="w-full h-fit px-10 py-10  bg-[#86868678] text-[1.5vw] max-md:text-[9px] rounded-xl">
+        <div className="w-[8vw] max-md:w-[20vw]  inline-block    mr-10 max-md:mr-2 h-[8vw] max-md:h-[20vw] ">
           <img
             className="  h-full "
             src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png"
@@ -23,7 +23,7 @@ const Skills = () => {
           ></img>
           <h1 className="font-extrabold text-center">HTML</h1>
         </div>
-        <div className="w-[10vw] inline-block mr-10 h-[10vw]">
+        <div className="w-[8vw] max-md:w-[20vw]  inline-block    mr-10 max-md:mr-2 h-[8vw] max-md:h-[20vw] ">
           <img
             className="  h-full "
             src="/images/css-3 (1).png"
@@ -31,7 +31,7 @@ const Skills = () => {
           ></img>
           <h1 className="font-extrabold text-center">CSS</h1>
         </div>
-        <div className="w-[10vw] inline-block mr-10 h-[10vw]">
+        <div className="w-[8vw] max-md:w-[20vw]  inline-block    mr-10 max-md:mr-2 h-[8vw] max-md:h-[20vw] ">
           <img
             className="  w-[80%] "
             src="/images/js.png"
@@ -39,7 +39,7 @@ const Skills = () => {
           ></img>
           <h1 className="font-extrabold whitespace-nowrap text-center">JAVA SCRIPT</h1>
         </div>
-        <div className="w-[10vw] inline-block mr-10 h-[10vw]">
+        <div className="w-[8vw] max-md:w-[20vw]  inline-block    mr-10 max-md:mr-2 h-[8vw] max-md:h-[20vw] ">
           <img
             className="  h-full "
             src="/images/reactjs.jpg"
@@ -47,7 +47,7 @@ const Skills = () => {
           ></img>
           <h1 className="font-extrabold text-center">REACT js</h1>
         </div>
-        <div className="w-[10vw] inline-block mr-10 h-[10vw]">
+        <div className="w-[8vw] max-md:w-[20vw]  inline-block    mr-10 max-md:mr-2 h-[8vw] max-md:h-[20vw] ">
           <img
             className=" w-full "
             src="/images/tailwind.png"
@@ -55,7 +55,7 @@ const Skills = () => {
           ></img>
           <h1 className="font-extrabold text-center">Tailwind CSS</h1>
         </div>
-        <div className="w-[10vw] inline-block mr-10 h-[10vw]">
+        <div className="w-[8vw] max-md:w-[20vw]  inline-block    mr-10 max-md:mr-2 h-[8vw] max-md:h-[20vw] ">
           <img
             className="  w-full "
             src="/images/Mern.png"
@@ -63,7 +63,7 @@ const Skills = () => {
           ></img>
           <h1 className="font-extrabold text-center">MERN</h1>
         </div>
-        <div className="w-[10vw] inline-block mr-10 h-[10vw]">
+        <div className="w-[8vw] max-md:w-[20vw]  inline-block    mr-10 max-md:mr-2 h-[8vw] max-md:h-[20vw] ">
           <img
             className="  w-full "
             src="/images/gsap.jpg"
@@ -71,7 +71,7 @@ const Skills = () => {
           ></img>
           <h1 className="font-extrabold text-center">GSAP</h1>
         </div>
-        <div className="w-[10vw] inline-block mr-10 h-[10vw]">
+        <div className="w-[8vw] max-md:w-[20vw]  inline-block    mr-10 max-md:mr-2 h-[8vw] max-md:h-[20vw] ">
           <img
             className="  w-full "
             src="/images/nodejspng.png"
@@ -79,7 +79,7 @@ const Skills = () => {
           ></img>
           <h1 className="font-extrabold text-center">NODE js</h1>
         </div>
-        <div className="w-[10vw] inline-block mr-10 h-[10vw]">
+        <div className="w-[8vw] max-md:w-[20vw]  inline-block    mr-10 max-md:mr-2 h-[8vw] max-md:h-[20vw] ">
           <img
             className="  w-full "
             src="/images/mongodb.svg"
@@ -87,7 +87,7 @@ const Skills = () => {
           ></img>
           <h1 className="font-extrabold text-center">MONGODB</h1>
         </div>
-        <div className="w-[10vw] inline-block mr-10 h-[10vw]">
+        <div className="w-[8vw] max-md:w-[20vw]  inline-block    mr-10 max-md:mr-2 h-[8vw] max-md:h-[20vw] ">
           <img
             className="  w-full "
             src="/images/framer.png"

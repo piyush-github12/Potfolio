@@ -15,6 +15,9 @@ const Contact = () => {
       <h1 className="font-extrabold text-[3vw] max-md:text-[20px] ">
         Address = Bhopal, Madhya Pradesh
       </h1>
+      <h1 className="font-extrabold text-[3vw] max-md:text-[20px] ">
+        Phone = 9009852775 , 6260410473
+      </h1>
       <Link
         target="_blank"
         to={"www.linkedin.com/in/piyush-gayakwad-1535551b8"}
@@ -26,7 +29,7 @@ const Contact = () => {
       <Link
         target="_blank"
         to={"https://www.instagram.com/piyush_gayakwad_9/"}
-        className="font-extrabold text-[3vw] max-md:text-[20px] hover:underline  text-[#eb56ff]"
+        className="font-extrabold text-[3vw] max-md:text-[20px] hover:underline  text-[#ff5656]"
       >
         Instagram
       </Link>{" "}
