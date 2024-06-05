@@ -19,7 +19,7 @@ const Home = () => {
           Piyush Gayawad
         </h1>
       </div>
-      <div className="font-love h-[15vw]  text-[2vw]  w-[50%] mt-10 ml-20">
+      <div className="font-love h-[10vw]  text-[2vw]  w-[50%] mt-10 ml-20">
         <h1>
           <TypeAnimation
             sequence={[
