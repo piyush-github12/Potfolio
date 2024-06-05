@@ -1,0 +1,14 @@
+
+@media (max-width:600px) {
+    #Project{
+        padding: 10px;
+    }
+    #dabba{
+        display: block;
+        /* background-color: aqua; */
+    }
+    /* #dabbabox{
+        width: 200px;
+        height: 350px;
+    } */
+}

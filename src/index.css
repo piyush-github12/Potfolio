@@ -15,9 +15,13 @@
 html, body{
     height: 100%;
     width: 100%;
+    scroll-behavior: smooth;
+    cursor: none;
+    /* scroll-padding-top: 100px; */
+    overflow-x: hidden;
+
 }
 body{
-    overflow-x: hidden;
     scroll-behavior: smooth;
 
 }
@@ -25,14 +29,22 @@ body::-webkit-scrollbar{
     display: none;
 }
 
+
 :root{
   --love-sis-family: "Love Ya Like A Sister", cursive;
   --mansalva-family: "Mansalva", sans-serif;  
 }
-
+.font-mansalva{
+    font-family: "Mansalva", sans-serif;
+}
 .font-love{
     font-family: "Love Ya Like A Sister", cursive;
 }
 .font-londrina{
   font-family: "Londrina Shadow", sans-serif;
 }
+
+#cursor{
+    transition: all ease-in-out 2;
+}
+
