@@ -5,7 +5,10 @@ import { Link } from 'react-router-dom';
 const Contact = () => {
     
   return (
-    <div id='Contact' className="w-full h-fit text-white bg-[#0f0f0f] px-14 max-md:px-5 pb-10 font-love">
+    <div
+      id="Contact"
+      className="w-full h-fit text-white bg-[#0f0f0f] px-14 max-md:px-5 pb-10 font-love"
+    >
       <h1 className="text-[6vw] max-md:text-[30px] text-[#8FEC98] font-love">
         Contact
       </h1>
@@ -20,7 +23,7 @@ const Contact = () => {
       </h1>
       <Link
         target="_blank"
-        to={"www.linkedin.com/in/piyush-gayakwad-1535551b8"}
+        to={"https://www.linkedin.com/in/piyush-gayakwad-1535551b8/"}
         className="font-extrabold text-[3vw] max-md:text-[20px]  hover:underline text-[#2585CB]"
       >
         Linkedin

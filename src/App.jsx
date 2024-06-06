@@ -15,7 +15,7 @@ const App = () => {
     <>
       <div
         id="cursor"
-        className="fixed pointer-events-none  z-[9999] w-[25px] h-[25px] rounded-full"
+        className="max-md:hidden fixed pointer-events-none  z-[9999] w-[25px] h-[25px] rounded-full"
       >
         <svg
           id="Layer_1"

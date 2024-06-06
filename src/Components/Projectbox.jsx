@@ -14,7 +14,7 @@ const Projectbox = (props) => {
     >
       <Link
         target="_blank"
-        to={props.item.liveLink ? props.item.liveLink : props.item.linkedinLink}
+        to={props.item.linkedinLink && props.item.linkedinLink}
       >
         <motion.div className="relative w-full h-fit rounded-xl overflow-hidden border-2 border-white  bg-red-200">
           <img className="w-[100%]  " src={props.item.image} alt="" />
