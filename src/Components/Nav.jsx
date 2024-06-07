@@ -23,7 +23,7 @@ const Nav = () => {
                 className=" text-[#ffffffbc] hover:text-white ease-in-out duration-200"
               >
                 <a
-                  href={item == "Resume" ? `/piyush's_resume.pdf` : ` #${item}`}
+                  href={item == "Resume" ? `/Piyush Gayakwad Resume.pdf` : ` #${item}`}
                   download={item == "Resume" && "piyush's_resume"}
                   className='font-["Mansalva"]  text-[30px] underline flex items-center justify-center gap-2'
                 >
