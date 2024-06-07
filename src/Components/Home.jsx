@@ -19,8 +19,8 @@ const Home = () => {
           Piyush Gayawad
         </h1>
       </div>
-      <div className="font-love h-[10vw]  text-[2vw]  w-[50%] mt-10 ml-20">
-        <h1>
+      <div className="font-love h-[10vw]  text-[2vw]  w-[50%] max-md:w-full mt-10 ml-20 max-md:ml-10 max-md:mb-10">
+        <h1 >
           <TypeAnimation
             sequence={[
               `Hey there,\nI'm Piyush Gayakwad \n A Full Stack Web Developer and Designer`,
@@ -28,7 +28,7 @@ const Home = () => {
             ]}
             speed={30}
             // repeat={Infinity}
-            style={{ whiteSpace: "pre-line", fontSize: "2vw" }}
+            style={{ whiteSpace: "pre-line", fontSize: "2vmax" }}
           />
         </h1>
       </div>

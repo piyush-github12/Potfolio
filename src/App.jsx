@@ -5,11 +5,15 @@ import Contact from "./Components/Contact";
 // import Cursor from './Components/Cursor'
 
 const App = () => {
-  window.addEventListener("mousemove", function (dets) {
-    document.querySelector(
-      "#cursor"
-    ).style.transform = `translate(${dets.clientX}px , ${dets.clientY}px)`;
-  });
+
+  useEffect(()=>{
+    window.addEventListener("mousemove", function (dets) {
+      document.querySelector(
+        "#cursor"
+      ).style.transform = `translate(${dets.clientX}px , ${dets.clientY}px)`;
+    });
+  },[])
+  
 
   return (
     <>

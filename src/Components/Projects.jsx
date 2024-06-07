@@ -172,10 +172,10 @@ const Projects = () => {
 
   return (
     <div id="Project" className="w-full min-h-[100vh] bg-[#0f0f0f] px-20 pt-20">
-      <h1 className="whitespace-nowrap text-[6vw]  text-[#8FEC98] font-love">
+      <h1 className="whitespace-nowrap text-[6vmax] max-md:ml-[20px] text-[#8FEC98] font-love">
         Projects
       </h1>
-      <div id='dabba' className="grid grid-cols-4  ">
+      <div id="dabba" className=" ">
         {proj.map((item, index) => {
           return <Projectbox item={item} index={index} />;
         })}
@@ -183,10 +183,10 @@ const Projects = () => {
         {/* <Projectbox /> */}
       </div>
 
-      <h2 className="whitespace-nowrap text-[4vmax] mb-10 text-[#8FEC98] font-love">
+      <h2 className="whitespace-nowrap text-[4vmax] mb-10 max-md:mb-2 max-md:ml-[20px] text-[#8FEC98] font-love">
         Landing Pages
       </h2>
-      <div id='dabba' className="grid grid-cols-4">
+      <div id="dabba" className="grid grid-cols-4">
         {landinPages.map((item, index) => {
           return <Projectbox item={item} index={index} />;
         })}

@@ -10,7 +10,7 @@ const Projectbox = (props) => {
     <motion.div
       whileHover={{ scale: 1.1 }}
       id="dabbabox"
-      className="max-md:w-[40vw] max-md:h-fit w-[20vw] inline-block align-top pb-2 rounded-xl h-[450px] m-[12px] overflow-hidden  "
+      className="max-md:w-[45vw] max-md:h-fit w-[20vw] inline-block align-top pb-2 rounded-xl h-[450px] m-[12px] max-md:m-[2vw] overflow-hidden  "
     >
       <Link
         target="_blank"
@@ -21,7 +21,7 @@ const Projectbox = (props) => {
         </motion.div>
       </Link>
       <h2
-        className="text-[#ffffffe1] text-[2vw] font-extrabold text-center font-mansalva"
+        className="text-[#ffffffe1] text-[2vw] max-md:text-[16px] font-extrabold text-center font-mansalva"
         key={props.index}
       >
         {props.item.proName}
