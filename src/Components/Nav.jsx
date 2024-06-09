@@ -1,19 +1,26 @@
-import { motion, stagger } from "framer-motion";
-import React, { useEffect, useState } from "react";
+import { useGSAP } from "@gsap/react";
+import { motion, stagger, useMotionValueEvent, useScroll } from "framer-motion";
+import gsap from "gsap";
+import React, { useEffect, useRef, useState } from "react";
 import { FaDownload } from "react-icons/fa";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+
 
 const Nav = () => {
 
+// console.log(scrollYProgress)
   return (
     <div
       id="nav"
-      className="max-md:scale-[0.5] fixed w-full h-[50px] flex  justify-center"
+      // ref={nav}
+      className="max-md:scale-[0.5] z-[99999] fixed w-full h-[50px] flex  justify-center"
     >
       <div className="fixed overflow-hidden z-[999] mt-[2vh] px-10 rounded-md w-fit   h-fit  flex items-center justify-center gap-10 ">
-        {/* <motion.div
-          
-          className="w-full h-full translate-x-[-50%] bg-white absolute rounded-md  "
-        ></motion.div> */}
+        <div
+          id="bg-nav"
+          className="w-full h-full translate-y-[-110%] bg-white absolute rounded-md  "
+        ></div>
 
         {["About", "Skills", "Project", "Contact", "Resume"].map(
           (item, index) => {

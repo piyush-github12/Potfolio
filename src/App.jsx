@@ -5,6 +5,7 @@ import Contact from "./Components/Contact";
 // import Cursor from './Components/Cursor'
 
 const App = () => {
+  
 
   useEffect(()=>{
     window.addEventListener("mousemove", function (dets) {
