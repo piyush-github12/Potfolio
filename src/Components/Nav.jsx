@@ -14,15 +14,15 @@ const Nav = () => {
     <div
       id="nav"
       // ref={nav}
-      className="max-md:hidden z-[99999] fixed w-full h-[50px] flex  justify-center"
+      className="max-md:hidden z-[99999] fixed w-full h-[50px] flex  justify-end"
     >
-      <div className="fixed overflow-hidden z-[999] mt-[2vh] px-10 rounded-md w-fit   h-fit  flex items-center justify-center gap-10 ">
+      <div className="fixed overflow-hidden z-[999] mt-[2vh] px-10 rounded-md w-fit   h-fit  flex items-center justify-end gap-10 ">
         <div
           id="bg-nav"
           className="w-full h-full translate-y-[-110%] bg-white absolute rounded-md  "
         ></div>
 
-        {["About", "Skills", "Project", "Contact", "Resume"].map(
+        {["Projects","Resume"].map(
           (item, index) => {
             return (
               <motion.div

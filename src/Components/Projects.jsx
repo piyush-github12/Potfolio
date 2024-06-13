@@ -171,7 +171,7 @@ const Projects = () => {
   ];
 
   return (
-    <div id="Project" className="w-full min-h-[100vh] bg-[#0f0f0f] px-20 pt-20">
+    <div id="Projects" className="w-full min-h-[100vh] bg-[#0f0f0f] px-20 pt-20">
       <h1 className="whitespace-nowrap text-[6vmax] max-md:ml-[20px] text-[#8FEC98] font-love">
         Projects
       </h1>
