@@ -19,7 +19,8 @@ const Projects = () => {
       proName: "OCHI Design",
       image: "/images/projectimages/ochi.png",
       liveLink: "https://ochi-1.onrender.com/#",
-      linkedinLink: "",
+      linkedinLink:
+        "https://www.linkedin.com/posts/piyush-gayakwad-1535551b8_reactjs-html-css-activity-7205691858943975426-fg1h/",
       sourceCode: "https://github.com/piyush-github12/ochi",
       discription: "",
     },
@@ -27,10 +28,10 @@ const Projects = () => {
     {
       proName: "EJ Studio",
       image: "/images/projectimages/EJ-Studio.png",
-      liveLink: "",
+      liveLink: "https://piyush-github12.github.io/EJ-Studio/",
       linkedinLink:
         "https://www.linkedin.com/posts/piyush-gayakwad-1535551b8_frontenddevelopment-finalproject-sheriyanshcodingschool-activity-7069668982240260096-7fxR?utm_source=share&utm_medium=member_desktop",
-      sourceCode: "",
+      sourceCode: "https://github.com/piyush-github12/EJ-Studio",
       discription: "",
     },
     {
