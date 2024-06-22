@@ -18,10 +18,6 @@ const Skills = () => {
         trigger:".skbox",
         start:"top 70%",
         end:"top top",
-        // markers:true,
-        
-        // scrub:true
-
       }
     });
   });
@@ -39,14 +35,14 @@ const Skills = () => {
         </h1>
         <h1 className="whitespace-nowrap text-[3vmax] ">And</h1>
         <h1
-          animate={{ x: 400 }}
+          
           id="dp"
           className="whitespace-nowrap text-[6vmax]  text-[#8FEC98]"
         >
           Interest
         </h1>
       </div>
-      <div className="skbox w-full h-fit px-10 py-10 max-md:px-[0px] max-md:grid max-md:grid-cols-4  bg-[#86868678] text-[1.5vw] max-md:text-[9px] rounded-xl">
+      <div className="skbox w-full  h-fit px-10 py-10 max-md:px-[0px] max-md:grid max-md:grid-cols-4  bg-[#86868678] text-[1.5vw] max-md:text-[9px] rounded-xl">
         <div
           id="jk"
           className="w-[8vw] max-md:w-[15vw]   inline-block  max-md:m-2 max-md:mb-5  mr-10  h-[8vw] max-md:h-[15vw]  "

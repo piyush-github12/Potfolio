@@ -12,7 +12,7 @@ const Projects = () => {
       liveLink: "https://piyush-github12.github.io/ACCRO/",
       linkedinLink:
         "https://www.linkedin.com/posts/piyush-gayakwad-1535551b8_an-amazing-new-frontend-project-with-activity-7187903314859036673-1xrr?utm_source=share&utm_medium=member_desktop",
-      sourceCode: "https://github.com/piyush-github12/ACCRO",
+      sourceCode: "https://github.com/piyush-github12/ACCRO/",
       discription: "",
     },
     {
@@ -31,7 +31,7 @@ const Projects = () => {
       liveLink: "https://piyush-github12.github.io/EJ-Studio/",
       linkedinLink:
         "https://www.linkedin.com/posts/piyush-gayakwad-1535551b8_frontenddevelopment-finalproject-sheriyanshcodingschool-activity-7069668982240260096-7fxR?utm_source=share&utm_medium=member_desktop",
-      sourceCode: "https://github.com/piyush-github12/EJ-Studio",
+      sourceCode: "https://github.com/piyush-github12/EJ-Studio/",
       discription: "",
     },
     {
@@ -172,11 +172,14 @@ const Projects = () => {
   ];
 
   return (
-    <div id="Projects" className="w-full min-h-[100vh] bg-[#0f0f0f] px-20 pt-20">
+    <div
+      id="Projects"
+      className="w-full min-h-[100vh] bg-[#0f0f0f] px-20 max-md:px-0 pt-20"
+    >
       <h1 className="whitespace-nowrap text-[6vmax] max-md:ml-[20px] text-[#8FEC98] font-love">
         Projects
       </h1>
-      <div id="dabba" className=" ">
+      <div id="dabba" className=" grid grid-cols-4 max-md:grid-cols-2 ">
         {proj.map((item, index) => {
           return <Projectbox item={item} index={index} />;
         })}

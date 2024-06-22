@@ -29,7 +29,7 @@ useMotionValueEvent(scrollYProgress,"change", (latest) => {
         <h1 id='pot' className="font-love">
           Portfolio <span className="max-md:text-[40px]  text-[60px]">of</span>
         </h1>
-        <h1 className="font-londrina text-[#808080] max-md:text-[90px] text-[120px]">
+        <h1 style={{}} className="font-londrina   text-[#808080] max-md:text-[90px] text-[120px]">
           Piyush Gayawad
         </h1>
       </div>
