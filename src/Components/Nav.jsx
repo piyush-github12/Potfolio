@@ -14,7 +14,7 @@ const Nav = () => {
     <div
       id="nav"
       // ref={nav}
-      className="max-md:hidden z-[99999] fixed w-full h-[50px] flex  justify-end"
+      className=" z-[99999] fixed w-full h-[50px] flex  justify-end"
     >
       <div className="fixed overflow-hidden z-[999] mt-[2vh] px-10 rounded-md w-fit   h-fit  flex items-center justify-end gap-10 ">
         <div
