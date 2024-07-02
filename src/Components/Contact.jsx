@@ -13,7 +13,7 @@ const Contact = () => {
         Contact
       </h1>
       <h1 className="font-extrabold text-[3vw] max-md:text-[20px] ">
-        E-mail = gayakwadpiyush02@gmail.com
+        E-mail = piyushgayakwad0003@gmail.com
       </h1>
       <h1 className="font-extrabold text-[3vw] max-md:text-[20px] ">
         Address = Bhopal, Madhya Pradesh
