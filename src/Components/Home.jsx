@@ -30,7 +30,7 @@ useMotionValueEvent(scrollYProgress,"change", (latest) => {
           Portfolio <span className="max-md:text-[40px]  text-[60px]">of</span>
         </h1>
         <h1 style={{}} className="font-londrina   text-[#808080] max-md:text-[90px] text-[120px]">
-          Piyush Gayawad
+          Piyush Gayakwad
         </h1>
       </div>
       <div className="font-love h-[10vw]  text-[2vw]  w-[50%] max-md:w-full mt-10 ml-20 max-md:ml-10 max-md:mb-10">
