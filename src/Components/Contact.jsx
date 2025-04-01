@@ -19,7 +19,7 @@ const Contact = () => {
         Address = Bhopal, Madhya Pradesh
       </h1>
       <h1 className="font-extrabold text-[3vw] max-md:text-[20px] ">
-        Phone = 9009852775 , 6260410473
+        Phone =  6260410473
       </h1>
       <Link
         target="_blank"

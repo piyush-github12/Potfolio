@@ -161,25 +161,25 @@ const Projects = () => {
       sourceCode: "",
       discription: "",
     },
-    {
-      proName: "instapost",
-      image: "",
-      linkedinLink:
-        "https://www.linkedin.com/posts/piyush-gayakwad-1535551b8_html-css-js-activity-7050889691528654848-SKm8?utm_source=share&utm_medium=member_desktop",
-      sourceCode: "",
-      discription: "",
-    },
+    // {
+    //   proName: "instapost",
+    //   image: "",
+    //   linkedinLink:
+    //     "https://www.linkedin.com/posts/piyush-gayakwad-1535551b8_html-css-js-activity-7050889691528654848-SKm8?utm_source=share&utm_medium=member_desktop",
+    //   sourceCode: "",
+    //   discription: "",
+    // },
   ];
 
   return (
     <div
       id="Projects"
-      className="w-full min-h-[100vh] bg-[#0f0f0f] px-20 max-md:px-0 pt-20"
+      className="w-full min-h-[100vh] bg-[#0f0f0f] px-16 max-md:px-0 max-lg:px-10 pt-20 "
     >
       <h1 className="whitespace-nowrap text-[6vmax] max-md:ml-[20px] text-[#8FEC98] font-love">
         Projects
       </h1>
-      <div id="dabba" className=" grid grid-cols-4 max-md:grid-cols-2 ">
+      <div id="dabba" className=" grid grid-cols-4 max-md:grid-cols-2 gap-y-5   max-lg:grid-cols-3 max-sm:grid-cols-1">
         {proj.map((item, index) => {
           return <Projectbox item={item} index={index} />;
         })}
@@ -190,7 +190,7 @@ const Projects = () => {
       <h2 className="whitespace-nowrap text-[4vmax] mb-10 max-md:mb-2 max-md:ml-[20px] text-[#8FEC98] font-love">
         Landing Pages
       </h2>
-      <div id="dabba" className="grid grid-cols-4">
+      <div id="dabba" className="grid grid-cols-4 max-md:grid-cols-2 gap-y-5  max-lg:grid-cols-3 max-sm:grid-cols-1">
         {landinPages.map((item, index) => {
           return <Projectbox item={item} index={index} />;
         })}
