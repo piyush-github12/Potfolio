@@ -24,7 +24,7 @@ useMotionValueEvent(scrollYProgress,"change", (latest) => {
       id="About"
       className=" w-[100vw] min-h-[100vh] bg-[#0f0f0f] text-white py-2"
     >
-      <Nav />
+{/*       <Nav /> */}
       <div className="text-[100px] max-md:text-[60px] leading-none  mt-[15vh]  ml-14 max-md:ml-5 max-md:mt-20">
         <h1 id='pot' className="font-love">
           Portfolio <span className="max-md:text-[40px]  text-[60px]">of</span>
