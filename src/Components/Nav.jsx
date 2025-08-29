@@ -22,7 +22,7 @@ const Nav = () => {
           className="w-full h-full translate-y-[-110%] bg-white absolute rounded-md  "
         ></div>
 
-        {["Projects","Resume"].map(
+        {["Projects"].map( //"Resume" remenber to add 
           (item, index) => {
             return (
               <motion.div
