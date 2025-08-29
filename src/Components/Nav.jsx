@@ -14,7 +14,7 @@ const Nav = () => {
     <div
       id="nav"
       // ref={nav}
-      className=" max-md:scale-50 z-[99999] fixed w-full h-[50px] flex  justify-end"
+      className=" max-md:scale-50 z-[999] fixed w-full h-[50px] flex  justify-end"
     >
       <div className="fixed overflow-hidden z-[999] mt-[2vh] px-10 rounded-md w-fit   h-fit  flex items-center justify-end gap-10 ">
         <div
@@ -32,7 +32,7 @@ const Nav = () => {
                 <a
                   href={item == "Resume" ? `/piyush_gayakwad_resume.pdf` : ` #${item}`}
                   download={item == "Resume" && "piyush's_resume"}
-                  className='font-["Mansalva"]  text-[30px] underline flex items-center justify-center gap-2'
+                  className='font-Caveat  text-[30px] underline flex items-center justify-center gap-2'
                 >
                   {item}
                   {item === "Resume" && <FaDownload />}

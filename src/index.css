@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -43,8 +44,12 @@ body::-webkit-scrollbar{
 .font-londrina{
   font-family: "Londrina Shadow", sans-serif;
 }
+.font-Caveat{
+    font-family: "Caveat", cursive;
+}
 
 #cursor{
     transition: all ease-in-out 2;
 }
+
 
