@@ -232,7 +232,7 @@ const Projects = () => {
   return (
     <div
       id="Projects"
-      className="w-full min-h-[100vh] bg-[#0f0f0f] px-16 max-md:px-0 max-lg:px-10 pt-14 "
+      className="w-full min-h-[100vh] bg-[#0f0f0f] px-16 max-md:px-0 max-lg:px-10 pt-14 py-10"
     >
       {/* <h1 className="whitespace-nowrap text-[5vmax] max-md:ml-[20px] text-[#8FEC98] font-love">
         Recent <span className='text-[#2585CB]' >Freelance</span> Work

@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div
       id="Contact"
-      className="w-full h-fit text-white bg-[#0f0f0f] px-14 max-md:px-5 pb-10 font-love"
+      className="w-full h-fit text-white bg-[#0f0f0f] px-14 max-md:px-5 pt-2 pb-10 font-love"
     >
       <h1 className="text-[6vw] max-md:text-[30px] text-[#8FEC98] font-love">
         Contact

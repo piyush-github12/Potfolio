@@ -24,20 +24,20 @@ const Skills = () => {
 
 
   return (
-    <div id="Skills" className="w-full h-fit  mt-5 p-[5vw] ">
+    <div id="Skills" className="w-full h-fit max-sm:pt-20 mt-5 p-[5vw] ">
       <div className="flex gap-4 items-center justify-start ">
         <div className="w-[30px] h-[5px] rounded-full bg-white "></div>
         <h1 className="font-Caveat text-[3vmax]"> What I am Good at</h1>
       </div>
-      <div className="leading-[6vw] flex mt-10 max-md:mt-5 mb-10  items-end gap-4 font-love">
-        <h1 className="whitespace-nowrap text-[6vmax] text-[#2585CB]">
+      <div className="leading-[6vw] flex flex-wrap mt-10 max-md:mt-5 mb-10  items-end gap-4 max-sm:space-y-4 font-love">
+        <h1 className="whitespace-nowrap text-[5vmax] text-[#2585CB]">
           Skills
         </h1>
         <h1 className="whitespace-nowrap text-[3vmax] ">And</h1>
         <h1
           
           id="dp"
-          className="whitespace-nowrap text-[6vmax]  text-[#8FEC98]"
+          className="whitespace-nowrap text-[5vmax]  text-[#8FEC98]"
         >
           Interest
         </h1>
@@ -118,6 +118,13 @@ const Skills = () => {
         >
           <img className="  w-full " src="/images/framer.png" alt=""></img>
           <h1 className="font-extrabold font-Caveat text-sm text-center">FRAMER MOTION</h1>
+        </div>
+        <div
+          id="jk"
+          className="w-[8vw] max-md:w-[15vw]   inline-block  max-md:m-2 max-md:mb-5  mr-10  h-[8vw] max-md:h-[15vw]  "
+        >
+          <img className="  w-full " src="https://framerusercontent.com/images/pREE9VLSuqkzsJO1BtrMWy4WVVI.png?width=1024&height=1024" alt=""></img>
+          <h1 className="font-extrabold font-Caveat text-sm text-center">FRAMER </h1>
         </div>
       </div>
     </div>
