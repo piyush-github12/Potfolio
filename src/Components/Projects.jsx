@@ -118,16 +118,16 @@ const Projects = () => {
       sourceCode: "",
       discription: "",
     },
-    {
-      proName: "Dribbbel",
-      image: "/images/projectimages/Dribbbel.png",
+    // {
+    //   proName: "Dribbbel",
+    //   image: "/images/projectimages/Dribbbel.png",
 
-      liveLink: "",
-      linkedinLink:
-        "https://www.linkedin.com/posts/piyush-gayakwad-1535551b8_recently-i-made-this-dribbble-website-clone-activity-7033377375086075904-Lxlj?utm_source=share&utm_medium=member_desktop",
-      sourceCode: "https://github.com/piyush-github12/Dribbble",
-      discription: "",
-    },
+    //   liveLink: "",
+    //   linkedinLink:
+    //     "https://www.linkedin.com/posts/piyush-gayakwad-1535551b8_recently-i-made-this-dribbble-website-clone-activity-7033377375086075904-Lxlj?utm_source=share&utm_medium=member_desktop",
+    //   sourceCode: "https://github.com/piyush-github12/Dribbble",
+    //   discription: "",
+    // },
   ];
 
   const landinPages = [
@@ -234,7 +234,7 @@ const Projects = () => {
       id="Projects"
       className="w-full min-h-[100vh] bg-[#0f0f0f] px-16 max-md:px-0 max-lg:px-10 pt-14 "
     >
-      <h1 className="whitespace-nowrap text-[5vmax] max-md:ml-[20px] text-[#8FEC98] font-love">
+      {/* <h1 className="whitespace-nowrap text-[5vmax] max-md:ml-[20px] text-[#8FEC98] font-love">
         Recent <span className='text-[#2585CB]' >Freelance</span> Work
       </h1>
       <motion.div id="dabba" className=" grid grid-cols-4 max-md:grid-cols-2 gap-y-5   max-lg:grid-cols-3 max-sm:grid-cols-1"  variants={containerVariants} initial="hidden" whileInView="visible"  viewport={{ once: true, amount: 0.3 }} >
@@ -242,8 +242,7 @@ const Projects = () => {
           return <motion.div key={index} variants={itemVariants}   > <Projectbox item={item} index={index}  onClick={() => openModal(item)} />  </motion.div> ;
         })}
 
-        {/* <Projectbox /> */}
-      </motion.div>
+      </motion.div> */}
       <h1 className="whitespace-nowrap text-[5vmax] max-md:ml-[20px] text-[#8FEC98] font-love">
         Projects
       </h1>
