@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Projectbox from './Projectbox'
 // import {proj} from "./Projectsdata"
 import "./Projects.css"
@@ -209,6 +209,24 @@ const Projects = () => {
     setModalProject(null);
   };
 
+  const [viewportAmount, setViewportAmount] = useState(0.3);
+
+useEffect(() => {
+  const handleResize = () => {
+    if (window.innerWidth <= 600) {
+      setViewportAmount(0);
+    } else {
+      setViewportAmount(0.3);
+    }
+  };
+
+  handleResize();
+  window.addEventListener('resize', handleResize);
+  return () => {
+    window.removeEventListener('resize', handleResize);
+  };
+}, []);
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -246,7 +264,7 @@ const Projects = () => {
       <h1 className="whitespace-nowrap text-[5vmax] max-md:ml-[20px] text-[#8FEC98] font-love">
         Projects
       </h1>
-      <motion.div id="dabba" className=" grid grid-cols-4 max-md:grid-cols-2 gap-y-5   max-lg:grid-cols-3 max-sm:grid-cols-1" variants={containerVariants} initial="hidden" whileInView="visible"  viewport={{ once: true, amount: 0.3 }}>
+      <motion.div id="dabba" className=" grid grid-cols-4 max-md:grid-cols-2 gap-y-5   max-lg:grid-cols-3 max-sm:grid-cols-1" variants={containerVariants} initial="hidden" whileInView="visible"  viewport={{ once: true, amount: viewportAmount }}>
         {proj.map((item, index) => {
           return <motion.div key={index} variants={itemVariants}  ><Projectbox item={item} index={index}  onClick={() => openModal(item)}  /> </motion.div>  ;
         })}
